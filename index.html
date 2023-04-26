@@ -200,16 +200,16 @@
                             action="https://echo.htmlacademy.ru/"
                             method="post"
                         >
-                            <p class="appointment-form-date">
-                                <span class="form-label form-label-icon">
-                                    <label for="appointment-date">Дата</label>
-                                    <button class="info" type="button">
+                            <p class="field-group appointment-form-date">
+                                <label class="form-label" for="appointment-date"
+                                    >Дата
+                                    <button class="info">
                                         <span class="visually-hidden"
                                             >Посмотреть дополнительную
                                             информацию</span
                                         >
                                     </button>
-                                </span>
+                                </label>
                                 <input
                                     type="text"
                                     id="appointment-date"
@@ -217,16 +217,16 @@
                                     placeholder="01.01.2020"
                                 />
                             </p>
-                            <p class="appointment-form-time">
-                                <span class="form-label form-label-icon">
-                                    <label for="appointment-time">Время</label>
-                                    <button class="info" type="button">
+                            <p class="field-group appointment-form-time">
+                                <label class="form-label" for="appointment-time"
+                                    >Время
+                                    <button class="info">
                                         <span class="visually-hidden"
                                             >Посмотреть дополнительную
                                             информацию</span
                                         >
                                     </button>
-                                </span>
+                                </label>
                                 <input
                                     type="text"
                                     id="appointment-time"
@@ -234,8 +234,12 @@
                                     placeholder="10:00"
                                 />
                             </p>
-                            <p class="appointment-form-phone">
-                                <label for="appointment-phone">Телефон</label>
+                            <p class="field-group appointment-form-phone">
+                                <label
+                                    class="form-label"
+                                    for="appointment-phone"
+                                    >Телефон</label
+                                >
                                 <input
                                     type="text"
                                     id="appointment-phone"
@@ -243,15 +247,17 @@
                                     placeholder="+7 800 000-00-00"
                                 />
                             </p>
-                            <p class="appointment-form-name">
-                                <label for="appointment-name">Ваше имя</label>
+                            <p class="field-group appointment-form-name">
+                                <label class="form-label" for="appointment-name"
+                                    >Ваше имя</label
+                                >
                                 <input
                                     type="text"
                                     id="appointment-name"
                                     name="appointment-name"
                                 />
                             </p>
-                            <button class="button" type="submit">
+                            <button class="appointment-submit" type="submit">
                                 Записаться
                             </button>
                         </form>
