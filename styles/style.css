@@ -843,6 +843,7 @@ body {
 .product-card {
     background-color: #fff;
     display: grid;
+    grid-template-rows: 200px -webkit-min-content auto -webkit-min-content 16px;
     grid-template-rows: 200px min-content auto min-content 16px;
     grid-template-columns: 16px 188px 16px;
     /* display: flex; */
